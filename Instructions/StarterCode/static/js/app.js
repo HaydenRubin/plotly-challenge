@@ -37,6 +37,7 @@ function init() {
     });
 }
 
+
 function buildPlot(person) { // person represented by samples.id
     d3.json("samples.json").then(function(data){
 
