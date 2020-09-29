@@ -97,7 +97,7 @@ init();
 
 // Step 4: Display the sample metadata, i.e., and individual's demographic info.
 
-
+//
 
 // Step 5: Display each key-value pair from the metadata JSON object somewhere on the page. 
 
