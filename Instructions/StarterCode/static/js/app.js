@@ -105,5 +105,3 @@ init();
 //
 
 // Step 6: Update all of the plots any time that a new sample is selected (Day 2 Activity 8).
-
-// 
