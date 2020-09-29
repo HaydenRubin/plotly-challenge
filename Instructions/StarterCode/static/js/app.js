@@ -31,11 +31,9 @@ function optionChanged(input){
 
 function init() {
     var dropdownMenu = d3.select("#selDataset");
-    var demographics = d3.select("#sample-metadata");
     // Assign the value of the dropdown menu option to a variable
     d3.json("samples.json").then(function(data){
         data.names.forEach(input => dropdownMenu.append("option").text(input).property("value", input));
-        data.metadata.forEach(input => demographics.text(input));
     });
 }
 
